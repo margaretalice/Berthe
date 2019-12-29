@@ -13,6 +13,7 @@
 </head>
 <body>
      <header>
+         <section class="section">
 
         <div class="row">
 
@@ -36,6 +37,7 @@
             </div>
 
         </div>
+        </section>
 
     </header>
     <section class="container-fluid">
@@ -43,7 +45,7 @@
             <div class="col-md-4 bg-color-regions section-column">
                 <div class="row">
                     <div class="col-12">
-                        <h3class="section-heading uppercase">Art Historical Sites</h3>
+                        <h2>Art Historical Sites</h2>
                     </div>
                 </div>
                 <div id="map"></div>
@@ -59,9 +61,10 @@
         
     </footer>
     <script>
-    function initMap () {
-        var map=new google.maps.Map(document.getElementById("map"), {
-            zoom:3,
+    var map;
+    function  initMap () {
+         var map=new google.maps.Map(document.getElementById("map"), {
+            zoom:8,
             center:{
                 lat:46.619261,
                 lng:-33.134766
@@ -75,8 +78,7 @@
     </script>
      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key="AIzaSyAZnnbXgMEI7YEuK7GlisLMQEU8_V3rgTo"&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZnnbXgMEI7YEuK7GlisLMQEU8_V3rgTo&callback=initMap">
     </script>
    
 </body>
