@@ -27,24 +27,33 @@
     background-color: #AFEEEE;
 }
 .logo {
-
     background: url("../images/Morisot.jpg");
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-size: cover;
-
-    min-height: 360px;
-
-    transition: all .4s ease-in-out;
-
-    -moz-transition: all .4s ease-in-out;
-
-    -webkit-transition: all .4s ease-in-out;
-
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 360px;
+     transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+     -webkit-transition: all .4s ease-in-out;
 }
 #map{min-height:360px;}
+.example {
+    padding: 10px;
+    font-size:17px;
+    border:1px solid grey;
+    background:#f1f1f1;
+}
+#monet {
+    background-attachment: fixed;
+    background-image: url('../images/Giverny.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+h1 {
+   color:#ffffff;
+}
+h2 {
+    color:#000000;
+}
 
     
